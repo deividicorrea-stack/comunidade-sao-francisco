@@ -3,91 +3,94 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#4b2e1f">
-<title>Comunidade São Francisco de Assis | Barra do Saí • Itapoá/SC</title>
+<meta name="theme-color" content="#3f281b">
+<title>Comunidade São Francisco de Assis | Barra do Saí – Itapoá/SC</title>
 <style>
-:root{--marrom:#4b2e1f;--marrom2:#6b4630;--creme:#f7f0e4;--claro:#fffaf2;--ouro:#c9a45c;--texto:#33271f}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--claro);color:var(--texto);font-family:Arial,sans-serif}
-nav{position:sticky;top:0;z-index:20;background:#fffaf2f4;backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:space-between;padding:12px 5%;border-bottom:1px solid #e8dccb}
-.brand{font-family:Georgia,serif;color:var(--marrom);font-weight:700;line-height:1.05}.brand small{display:block;font:11px Arial;letter-spacing:1.2px;margin-top:5px}
-.links{display:flex;gap:18px;align-items:center}.links a{color:var(--marrom);text-decoration:none;font-size:12px;font-weight:800;letter-spacing:.5px}
-.hero{min-height:82vh;display:grid;place-items:center;position:relative;text-align:center;color:white;padding:70px 20px;background:linear-gradient(#2e1d13a8,#2e1d13d0),url('assets/igreja-interior-cruz.png') center/cover}
-.hero .inner{max-width:820px}.eyebrow{letter-spacing:3px;font-size:12px;font-weight:800;color:#f1d99f}.hero h1{font:700 clamp(48px,8vw,82px) Georgia,serif;margin:14px 0 8px}.hero .years{font:700 20px Georgia;color:#f1d99f}.hero p{font-size:19px;line-height:1.6;max-width:700px;margin:16px auto}
-.btns{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.btn{display:inline-block;padding:14px 20px;border-radius:999px;background:var(--marrom);color:white;text-decoration:none;font-weight:800;font-size:13px;border:1px solid #ffffff55}.btn.alt{background:#fff9;color:var(--marrom)}
-section{padding:70px 6%}.wrap{max-width:1120px;margin:auto}.section-title{text-align:center;margin-bottom:32px}.section-title small{color:var(--ouro);font-weight:800;letter-spacing:2px}.section-title h2{font:700 clamp(31px,5vw,45px) Georgia;color:var(--marrom);margin:8px 0}
-.schedule{background:var(--creme)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:white;border-radius:18px;padding:25px;box-shadow:0 10px 30px #4b2e1f12;border-top:4px solid var(--ouro)}.card b{display:block;font:700 20px Georgia;color:var(--marrom);margin-bottom:10px}.time{font-weight:800;color:var(--marrom2);margin-top:8px}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:center}.about img{width:100%;height:430px;object-fit:cover;border-radius:24px}.about h2{font:700 43px Georgia;color:var(--marrom);margin:0 0 15px}.about p{line-height:1.8;font-size:17px}
-.events{background:var(--marrom);color:white}.events .section-title h2{color:white}.events .card{color:var(--texto);border-top-color:var(--ouro)}
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.gallery img{width:100%;height:260px;object-fit:cover;border-radius:18px;cursor:pointer;transition:.2s}.gallery img:hover{transform:scale(1.015)}
-.location{background:var(--creme);text-align:center}.location-box{max-width:800px;margin:auto;background:white;border-radius:24px;padding:38px;box-shadow:0 10px 35px #4b2e1f10}.location-box h2{font:700 38px Georgia;color:var(--marrom)}
-.logos{width:min(900px,96%);max-height:240px;object-fit:contain;margin-top:30px}
-footer{background:#241710;color:#eadfce;text-align:center;padding:32px 18px;line-height:1.8}
-@media(max-width:800px){.links{display:none}.hero{min-height:76vh}.grid{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.about img{height:330px}.gallery{grid-template-columns:1fr 1fr}}
-@media(max-width:500px){section{padding:55px 18px}.grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img{height:240px}.hero h1{font-size:49px}}
+:root{--marrom:#4a2d1e;--marrom2:#6c4932;--ouro:#b9914d;--creme:#f7f0df;--verde:#596b4b;--texto:#33271f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--creme);color:var(--texto);font-family:Arial,sans-serif}
+nav{position:sticky;top:0;z-index:10;background:#3b251bdc;backdrop-filter:blur(8px);color:#fff;padding:10px 5%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:10px}.brand img{width:54px;height:54px;object-fit:contain}.brand b{font-family:Georgia,serif}.brand small{display:block;opacity:.8}
+nav .links{display:flex;gap:18px;align-items:center}nav a{color:#fff;text-decoration:none;font-size:13px;font-weight:700}.contact{border:1px solid #d9bc82;padding:10px 14px;border-radius:999px}
+.hero{min-height:78vh;display:grid;place-items:center;position:relative;color:#fff;background:linear-gradient(90deg,#25160fd9,#3d2918a8,#24150f8f),url('assets/igreja-cruz.png') center/cover no-repeat}
+.hero-inner{width:min(1120px,92%);display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:40px;padding:70px 0}.community-logo{width:min(320px,70vw);filter:drop-shadow(0 8px 18px #0008)}
+.eyebrow{letter-spacing:.18em;font-size:12px;font-weight:800;color:#e1c791}.hero h1{font:clamp(44px,7vw,78px)/.95 Georgia,serif;margin:14px 0}.anniv{font:700 18px Georgia,serif;color:#d9b56f;letter-spacing:.12em}.hero p{font-size:18px;line-height:1.55;max-width:650px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-block;text-decoration:none;border-radius:7px;padding:14px 19px;font-weight:800;font-size:13px}.primary{background:var(--marrom2);color:#fff}.light{border:1px solid #ead8b8;color:#fff;background:#ffffff12}.whatsapp{background:#fff;color:#34552e}
+section{padding:64px 5%}.wrap{max-width:1120px;margin:auto}.section-title{text-align:center}.section-title small{letter-spacing:.16em;color:#89673f;font-weight:800}.section-title h2{font:38px Georgia,serif;color:var(--marrom);margin:8px 0 30px}
+.schedule{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.card{background:#fff;border-radius:16px;padding:26px 20px;text-align:center;box-shadow:0 8px 28px #5a392414;border-top:3px solid var(--ouro)}.card h3{font:21px Georgia,serif;color:var(--marrom);margin:8px 0}.time{font-size:25px;font-weight:800;color:#8a6539}
+.about{background:#fff}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:center}.about img{width:100%;border-radius:18px;max-height:480px;object-fit:cover}.about h2{font:42px Georgia,serif;color:var(--marrom);margin:8px 0}.about p{line-height:1.7}
+.events{background:var(--marrom);color:#fff}.events .section-title h2,.events .section-title small{color:#fff}.event-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.event{background:#fff;color:var(--texto);border-radius:16px;overflow:hidden;padding:25px}.event b{font:22px Georgia,serif;color:var(--marrom)}.event p{line-height:1.55}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery-grid img{width:100%;height:250px;object-fit:cover;border-radius:14px}.placeholder{height:250px;border:1px dashed #bca98f;border-radius:14px;display:grid;place-items:center;text-align:center;padding:20px;color:#7b6957;background:#fff9}
+.location{background:var(--verde);color:#fff}.location .wrap{text-align:center}.location h2{font:38px Georgia,serif;margin:0 0 12px}.location p{line-height:1.6}.location .actions{justify-content:center}
+footer{background:#2b1b13;color:#e9dccb;padding:32px 5%;text-align:center}.footer-logos{display:flex;justify-content:center;gap:22px;align-items:center;margin-bottom:18px}.footer-logos img{max-height:95px;max-width:220px;object-fit:contain}
+.float-wa{position:fixed;right:18px;bottom:18px;background:#fff;color:#315a2c;text-decoration:none;font-weight:900;padding:14px 17px;border-radius:999px;box-shadow:0 7px 25px #0004;z-index:20}
+@media(max-width:820px){nav .links{display:none}.hero-inner,.about-grid{grid-template-columns:1fr}.hero-inner{text-align:center}.community-logo{margin:auto}.actions{justify-content:center}.schedule{grid-template-columns:1fr 1fr}.event-grid,.gallery-grid{grid-template-columns:1fr}.hero{min-height:88vh}.gallery-grid img,.placeholder{height:220px}}
+@media(max-width:480px){.schedule{grid-template-columns:1fr}.hero h1{font-size:47px}.brand small{font-size:10px}}
 </style>
 </head>
 <body>
 <nav>
-  <div class="brand">São Francisco de Assis<small>BARRA DO SAÍ • ITAPOÁ/SC</small></div>
-  <div class="links"><a href="#inicio">INÍCIO</a><a href="#comunidade">COMUNIDADE</a><a href="#programacao">PROGRAMAÇÃO</a><a href="#eventos">EVENTOS</a><a href="#galeria">GALERIA</a><a href="#local">LOCALIZAÇÃO</a></div>
+ <div class="brand"><img src="assets/logo-comunidade.png" alt="Logo da Comunidade São Francisco de Assis"><div><b>São Francisco de Assis</b><small>Barra do Saí · Itapoá/SC</small></div></div>
+ <div class="links"><a href="#inicio">INÍCIO</a><a href="#comunidade">NOSSA COMUNIDADE</a><a href="#programacao">PROGRAMAÇÃO</a><a href="#eventos">EVENTOS</a><a href="#galeria">GALERIA</a><a href="#localizacao">LOCALIZAÇÃO</a><a class="contact" href="https://wa.me/5547999960210">CONTATO</a></div>
 </nav>
 
-<header class="hero" id="inicio"><div class="inner">
-  <div class="eyebrow">COMUNIDADE CATÓLICA</div>
-  <h1>São Francisco<br>de Assis</h1>
-  <div class="years">30 ANOS • 2026</div>
-  <p>Barra do Saí, Itapoá/SC. Um lugar de fé, oração, fraternidade e serviço.</p>
-  <div class="btns"><a class="btn" href="#programacao">VER PROGRAMAÇÃO</a><a class="btn alt" href="#comunidade">CONHEÇA A COMUNIDADE</a></div>
-</div></header>
-
-<section class="schedule" id="programacao"><div class="wrap">
-  <div class="section-title"><small>PARTICIPE CONOSCO</small><h2>Programação semanal</h2></div>
-  <div class="grid">
-    <div class="card"><b>Terço das Mulheres</b>Terças-feiras<div class="time">18h</div></div>
-    <div class="card"><b>Terço dos Homens</b>Quartas-feiras<div class="time">19h</div></div>
-    <div class="card"><b>Adoração ao Santíssimo</b>Quintas-feiras<div class="time">15h</div></div>
-    <div class="card"><b>Santa Missa / Celebração</b>Sábados<div class="time">19h</div></div>
+<header class="hero" id="inicio">
+ <div class="hero-inner">
+  <div>
+   <div class="eyebrow">COMUNIDADE CATÓLICA</div>
+   <h1>São Francisco<br>de Assis</h1>
+   <div class="anniv">30 ANOS · 2026</div>
+   <p>Barra do Saí, Itapoá/SC · Paz e Bem!</p>
+   <div class="actions"><a class="btn primary" href="#programacao">VER PROGRAMAÇÃO</a><a class="btn light" href="#comunidade">CONHEÇA NOSSA COMUNIDADE</a><a class="btn whatsapp" href="https://wa.me/5547999960210">WHATSAPP DA SECRETARIA</a></div>
   </div>
+  <div style="text-align:center"><img class="community-logo" src="assets/logo-comunidade.png" alt="Logo oficial da Comunidade São Francisco de Assis"></div>
+ </div>
+</header>
+
+<section id="programacao"><div class="wrap">
+ <div class="section-title"><small>PROGRAMAÇÃO SEMANAL</small><h2>Participe conosco!</h2></div>
+ <div class="schedule">
+  <div class="card"><div>✦</div><h3>Terço das Mulheres</h3><p>Terças-feiras</p><div class="time">18h</div></div>
+  <div class="card"><div>✦</div><h3>Terço dos Homens</h3><p>Quartas-feiras</p><div class="time">19h</div></div>
+  <div class="card"><div>✦</div><h3>Adoração ao Santíssimo</h3><p>Quintas-feiras</p><div class="time">15h</div></div>
+  <div class="card"><div>✦</div><h3>Santa Missa e Celebração</h3><p>Sábados</p><div class="time">19h</div><small>Santa Missa no 3º sábado do mês.</small></div>
+ </div>
 </div></section>
 
-<section id="comunidade"><div class="wrap about">
-  <img src="assets/sao-francisco-oracao.png" alt="São Francisco e a vida de oração da comunidade">
-  <div><div class="eyebrow" style="color:var(--ouro)">NOSSA COMUNIDADE</div><h2>Um lugar de fé, oração, fraternidade e serviço.</h2>
-  <p>A Comunidade São Francisco de Assis, em Barra do Saí, Itapoá/SC, celebra em 2026 seus 30 anos de caminhada. Inspirados pelo Evangelho e pelo exemplo de São Francisco, acolhemos as famílias e servimos com alegria na Igreja Católica.</p>
-  <a class="btn" href="#galeria">VER NOSSA GALERIA</a></div>
+<section class="about" id="comunidade"><div class="wrap about-grid">
+ <img src="assets/igreja-cruz.png" alt="Interior da Igreja São Francisco de Assis e crucifixo">
+ <div><small class="eyebrow" style="color:#89673f">NOSSA COMUNIDADE</small><h2>Um lugar de fé, oração, fraternidade e serviço.</h2><p>A Comunidade São Francisco de Assis, em Barra do Saí, Itapoá/SC, caminha há 30 anos anunciando o Evangelho, acolhendo as famílias e servindo com alegria, inspirada no exemplo de São Francisco.</p><p><b>Paróquia Nossa Senhora da Imaculada Conceição</b></p></div>
 </div></section>
 
 <section class="events" id="eventos"><div class="wrap">
-  <div class="section-title"><small>COMUNIDADE VIVA</small><h2>Eventos e avisos</h2></div>
-  <div class="grid">
-    <div class="card"><b>30 anos da Comunidade</b>Memória, fé e gratidão por três décadas de caminhada.</div>
-    <div class="card"><b>Celebrações</b>Acompanhe a programação semanal e participe conosco.</div>
-    <div class="card"><b>Missão e serviço</b>Momentos de evangelização, fraternidade e serviço à comunidade.</div>
-    <div class="card"><b>Galeria</b>Registros das celebrações e da história da Comunidade São Francisco.</div>
-  </div>
+ <div class="section-title"><small>EVENTOS E AVISOS</small><h2>Nossa caminhada em comunidade</h2></div>
+ <div class="event-grid">
+  <div class="event"><b>30 anos da Comunidade</b><p>Tríduo e Festa em honra a São Francisco de Assis.</p></div>
+  <div class="event"><b>Semana da Família</b><p>Momentos de oração, encontro e convivência em família.</p></div>
+  <div class="event"><b>Missões</b><p>Fé que se transforma em presença, acolhida e serviço.</p></div>
+ </div>
 </div></section>
 
 <section id="galeria"><div class="wrap">
-  <div class="section-title"><small>MOMENTOS DA NOSSA CAMINHADA</small><h2>Galeria de fotos</h2></div>
-  <div class="gallery">
-    <img src="assets/igreja-interior-cruz.png" alt="Interior da igreja e crucifixo">
-    <img src="assets/sao-francisco-oracao.png" alt="Oração de São Francisco na comunidade">
-    <img src="assets/igreja-interior-cruz.png" alt="Celebração na comunidade">
-    <img src="assets/sao-francisco-oracao.png" alt="Momento de fé">
-    <img src="assets/igreja-interior-cruz.png" alt="Comunidade reunida">
-    <img src="assets/sao-francisco-oracao.png" alt="São Francisco de Assis">
-  </div>
+ <div class="section-title"><small>GALERIA DE FOTOS</small><h2>Momentos que marcam nossa caminhada</h2></div>
+ <div class="gallery-grid">
+  <img src="assets/igreja-cruz.png" alt="Igreja e cruz">
+  <div class="placeholder"><b>Semana da Família</b><br>As próximas fotos entram aqui, sem repetição.</div>
+  <div class="placeholder"><b>Quinta-feira</b><br>Galeria preparada para acrescentar as fotos.</div>
+  <div class="placeholder"><b>Sexta-feira</b><br>Galeria preparada para acrescentar as fotos.</div>
+  <div class="placeholder"><b>Sábado</b><br>Galeria preparada para acrescentar as fotos.</div>
+  <div class="placeholder"><b>Domingo · Dia da Festa</b><br>Galeria preparada para acrescentar as fotos.</div>
+ </div>
 </div></section>
 
-<section class="location" id="local"><div class="location-box">
-  <div class="section-title"><small>VENHA NOS VISITAR</small><h2>Nossa localização</h2></div>
-  <p>Rua Benjamin Constant, S/N<br>Barra do Saí • Itapoá/SC</p>
-  <div class="btns">
-    <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rua+Benjamin+Constant%2C+Barra+do+Sai%2C+Itapoa%2C+SC">COMO CHEGAR</a>
-    <a class="btn alt" href="#inicio">VOLTAR AO INÍCIO</a>
-  </div>
-  <img class="logos" src="assets/logos-oficiais.png" alt="Logos eclesiais oficiais">
+<section class="location" id="localizacao"><div class="wrap">
+ <h2>Venha nos visitar</h2><p>Rua Benjamin Constant, s/n<br>Barra do Saí · Itapoá/SC</p>
+ <div class="actions"><a class="btn light" href="https://www.google.com/maps/search/?api=1&query=Rua+Benjamin+Constant%2C+Barra+do+Sai%2C+Itapoa%2C+SC" target="_blank" rel="noopener">COMO CHEGAR · GOOGLE MAPS</a><a class="btn whatsapp" href="https://wa.me/5547999960210" target="_blank" rel="noopener">WHATSAPP · (47) 99996-0210</a><a class="btn light" href="tel:+554734431555">TELEFONE · (47) 3443-1555</a></div>
 </div></section>
 
-<footer>Comunidade São Francisco de Assis • Barra do Saí • Itapoá/SC<br>Paróquia Nossa Senhora da Imaculada Conceição<br><br>“Senhor, fazei-me instrumento de vossa paz.”</footer>
-</body></html>
+<footer>
+ <div class="footer-logos"><img src="assets/brasao-paroquia.png" alt="Brasão da Paróquia Nossa Senhora da Imaculada Conceição"><img src="assets/logo-comunidade.png" alt="Logo da Comunidade São Francisco de Assis"></div>
+ <div>Comunidade São Francisco de Assis · Barra do Saí · Itapoá/SC</div>
+</footer>
+<a class="float-wa" href="https://wa.me/5547999960210" target="_blank" rel="noopener" aria-label="WhatsApp da Secretaria">WhatsApp</a>
+</body>
+</html>
