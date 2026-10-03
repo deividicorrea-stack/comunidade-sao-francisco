@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /editar.html
+Sitemap: https://saofranciscoitapoa.com.br/sitemap.xml
