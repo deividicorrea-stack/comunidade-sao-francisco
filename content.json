@@ -8,8 +8,8 @@
   "address": "Rua Benjamin Constant, S/N — Barra do Saí, Itapoá/SC",
   "mapQuery": "Comunidade São Francisco de Assis Rua Benjamin Constant Barra do Saí Itapoá SC",
   "social": {
-    "instagram": "",
-    "facebook": "",
+    "instagram": "https://www.instagram.com/saofrancisco.itapoa/",
+    "facebook": "https://www.facebook.com/share/14st93CnqbL/",
     "youtube": ""
   },
   "heroImage": "assets/igreja.webp",
@@ -40,7 +40,7 @@
       "icon": "sun"
     },
     {
-      "title": "Santa Missa e Celebração",
+      "title": "Santa Missa ou Celebração",
       "day": "Sábados",
       "time": "19h",
       "icon": "chalice"
@@ -61,17 +61,6 @@
       "photoNote": "Imagem de São Francisco na comunidade."
     },
     {
-      "id": "missoes-2026",
-      "title": "Missões na comunidade",
-      "category": "Missões",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "dateLabel": "19 de setembro de 2026",
-      "image": "",
-      "description": "A alegria de anunciar o Evangelho e ir ao encontro das famílias.",
-      "body": "As missões reuniram nossa comunidade em uma caminhada de fé e encontro. Mesmo com a chuva, a alegria de servir marcou esse momento. Agradecemos ao nosso pároco, Padre Gélio, pela organização e a todos que participaram."
-    },
-    {
       "id": "semana-da-familia-2026",
       "title": "Semana da Família",
       "category": "Semana da Família",
@@ -81,6 +70,17 @@
       "image": "",
       "description": "Oração e partilha com as famílias e nossas comunidades irmãs.",
       "body": "Um tempo de união e oração vivido com as comunidades São Francisco de Assis, Nossa Senhora dos Navegantes e Santa Isabel. Agradecemos a cada família e a todos que tornaram esses encontros possíveis."
+    },
+    {
+      "id": "missoes-2026",
+      "title": "Missões na comunidade",
+      "category": "Missões",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "dateLabel": "19 de setembro de 2026",
+      "image": "",
+      "description": "A alegria de anunciar o Evangelho e ir ao encontro das famílias.",
+      "body": "As missões reuniram nossa comunidade em uma caminhada de fé e encontro. Mesmo com a chuva, a alegria de servir marcou esse momento. Agradecemos ao nosso pároco, Padre Gélio, pela organização e a todos que participaram."
     }
   ],
   "gallery": [
@@ -88,19 +88,25 @@
       "src": "assets/igreja.webp",
       "alt": "Fachada real da Comunidade São Francisco de Assis, em Barra do Saí",
       "category": "Comunidade",
-      "title": "Nossa igreja"
+      "title": "Nossa igreja",
+      "cover": true,
+      "original": "assets/originais/igreja.webp"
     },
     {
       "src": "assets/altar.webp",
       "alt": "Altar da comunidade com a Cruz de São Damião e flores amarelas",
       "category": "Comunidade",
-      "title": "Nosso altar e a Cruz de São Damião"
+      "title": "Nosso altar e a Cruz de São Damião",
+      "cover": false,
+      "original": "assets/originais/altar.webp"
     },
     {
       "src": "assets/sao-francisco.webp",
       "alt": "Imagem de São Francisco de Assis iluminada no jardim da comunidade",
       "category": "Comunidade",
-      "title": "São Francisco em nosso jardim"
+      "title": "São Francisco em nosso jardim",
+      "cover": false,
+      "original": "assets/originais/sao-francisco.webp"
     },
     {
       "src": "assets/galeria/festa-sao-francisco-2025/01.webp",
@@ -111,29 +117,7 @@
       "alt": "Festa de São Francisco 2025 — registro 01 da comunidade",
       "category": "Festa de São Francisco 2025",
       "title": "Festa de São Francisco 2025 · Foto 01",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/02.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/02-mini.webp",
-      "original": "assets/originais/1000291636.jpg",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 02 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 02",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/03.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/03-mini.webp",
-      "original": "assets/originais/1000293288.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 03 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 03",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/festa-sao-francisco-2025/04.webp",
@@ -144,51 +128,7 @@
       "alt": "Festa de São Francisco 2025 — registro 04 da comunidade",
       "category": "Festa de São Francisco 2025",
       "title": "Festa de São Francisco 2025 · Foto 04",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/05.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/05-mini.webp",
-      "original": "assets/originais/1000293311.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 05 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 05",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/06.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/06-mini.webp",
-      "original": "assets/originais/1000291565(1).heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 06 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 06",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/07.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/07-mini.webp",
-      "original": "assets/originais/1000293286.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 07 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 07",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/08.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/08-mini.webp",
-      "original": "assets/originais/1000293310.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 08 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 08",
-      "thumbnailWidth": 338
+      "cover": true
     },
     {
       "src": "assets/galeria/festa-sao-francisco-2025/09.webp",
@@ -199,62 +139,7 @@
       "alt": "Festa de São Francisco 2025 — registro 09 da comunidade",
       "category": "Festa de São Francisco 2025",
       "title": "Festa de São Francisco 2025 · Foto 09",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/10.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/10-mini.webp",
-      "original": "assets/originais/1000291563(1).heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 10 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 10",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/11.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/11-mini.webp",
-      "original": "assets/originais/1000296585.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 11 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 11",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/12.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/12-mini.webp",
-      "original": "assets/originais/1000296588.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 12 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 12",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/13.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/13-mini.webp",
-      "original": "assets/originais/1000296587.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 13 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 13",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/14.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/14-mini.webp",
-      "original": "assets/originais/1000293314.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 14 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 14",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/festa-sao-francisco-2025/15.webp",
@@ -265,7 +150,7 @@
       "alt": "Festa de São Francisco 2025 — registro 15 da comunidade",
       "category": "Festa de São Francisco 2025",
       "title": "Festa de São Francisco 2025 · Foto 15",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/festa-sao-francisco-2025/16.webp",
@@ -276,84 +161,7 @@
       "alt": "Festa de São Francisco 2025 — registro 16 da comunidade",
       "category": "Festa de São Francisco 2025",
       "title": "Festa de São Francisco 2025 · Foto 16",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/17.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/17-mini.webp",
-      "original": "assets/originais/1000296584.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 17 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 17",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/18.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/18-mini.webp",
-      "original": "assets/originais/1000293313.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 18 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 18",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/19.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/19-mini.webp",
-      "original": "assets/originais/1000296692.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 19 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 19",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/20.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/20-mini.webp",
-      "original": "assets/originais/1000296693.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 20 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 20",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/21.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/21-mini.webp",
-      "original": "assets/originais/1000297329.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 21 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 21",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/22.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/22-mini.webp",
-      "original": "assets/originais/1000296741.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 22 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 22",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/23.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/23-mini.webp",
-      "original": "assets/originais/1000296742.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 23 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 23",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/festa-sao-francisco-2025/24.webp",
@@ -364,51 +172,7 @@
       "alt": "Festa de São Francisco 2025 — registro 24 da comunidade",
       "category": "Festa de São Francisco 2025",
       "title": "Festa de São Francisco 2025 · Foto 24",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/25.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/25-mini.webp",
-      "original": "assets/originais/1000297224.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 25 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 25",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/26.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/26-mini.webp",
-      "original": "assets/originais/1000297328.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 26 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 26",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/27.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/27-mini.webp",
-      "original": "assets/originais/1000296694.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 27 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 27",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/28.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/28-mini.webp",
-      "original": "assets/originais/1000297326.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 28 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 28",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/festa-sao-francisco-2025/29.webp",
@@ -419,106 +183,7 @@
       "alt": "Festa de São Francisco 2025 — registro 29 da comunidade",
       "category": "Festa de São Francisco 2025",
       "title": "Festa de São Francisco 2025 · Foto 29",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/30.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/30-mini.webp",
-      "original": "assets/originais/1000297352.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 30 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 30",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/31.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/31-mini.webp",
-      "original": "assets/originais/1000297347.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 31 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 31",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/32.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/32-mini.webp",
-      "original": "assets/originais/1000297359.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 32 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 32",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/33.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/33-mini.webp",
-      "original": "assets/originais/1000297351.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 33 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 33",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/34.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/34-mini.webp",
-      "original": "assets/originais/1000297350.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 34 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 34",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/35.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/35-mini.webp",
-      "original": "assets/originais/1000297349.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 35 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 35",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/36.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/36-mini.webp",
-      "original": "assets/originais/1000297348.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 36 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 36",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/37.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/37-mini.webp",
-      "original": "assets/originais/1000297415.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 37 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 37",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/festa-sao-francisco-2025/38.webp",
-      "thumbnail": "assets/galeria/festa-sao-francisco-2025/38-mini.webp",
-      "original": "assets/originais/1000297416.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Festa de São Francisco 2025 — registro 38 da comunidade",
-      "category": "Festa de São Francisco 2025",
-      "title": "Festa de São Francisco 2025 · Foto 38",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/festa-sao-francisco-2025/39.webp",
@@ -529,7 +194,7 @@
       "alt": "Festa de São Francisco 2025 — registro 39 da comunidade",
       "category": "Festa de São Francisco 2025",
       "title": "Festa de São Francisco 2025 · Foto 39",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/festa-sao-francisco-2025/40.webp",
@@ -540,18 +205,7 @@
       "alt": "Festa de São Francisco 2025 — registro 40 da comunidade",
       "category": "Festa de São Francisco 2025",
       "title": "Festa de São Francisco 2025 · Foto 40",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/terco-dos-homens/01.webp",
-      "thumbnail": "assets/galeria/terco-dos-homens/01-mini.webp",
-      "original": "assets/originais/1000316913.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Terço dos Homens — registro 01 da comunidade",
-      "category": "Terço dos Homens",
-      "title": "Terço dos Homens · Foto 01",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/terco-dos-homens/02.webp",
@@ -562,18 +216,7 @@
       "alt": "Terço dos Homens — registro 02 da comunidade",
       "category": "Terço dos Homens",
       "title": "Terço dos Homens · Foto 02",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/terco-dos-homens/03.webp",
-      "thumbnail": "assets/galeria/terco-dos-homens/03-mini.webp",
-      "original": "assets/originais/1000316909.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Terço dos Homens — registro 03 da comunidade",
-      "category": "Terço dos Homens",
-      "title": "Terço dos Homens · Foto 03",
-      "thumbnailWidth": 338
+      "cover": true
     },
     {
       "src": "assets/galeria/terco-dos-homens/04.webp",
@@ -584,40 +227,7 @@
       "alt": "Terço dos Homens — registro 04 da comunidade",
       "category": "Terço dos Homens",
       "title": "Terço dos Homens · Foto 04",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/novena-de-natal/01.webp",
-      "thumbnail": "assets/galeria/novena-de-natal/01-mini.webp",
-      "original": "assets/originais/1000415415.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Novena de Natal — registro 01 da comunidade",
-      "category": "Novena de Natal",
-      "title": "Novena de Natal · Foto 01",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/novena-de-natal/02.webp",
-      "thumbnail": "assets/galeria/novena-de-natal/02-mini.webp",
-      "original": "assets/originais/1000415410.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Novena de Natal — registro 02 da comunidade",
-      "category": "Novena de Natal",
-      "title": "Novena de Natal · Foto 02",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/novena-de-natal/03.webp",
-      "thumbnail": "assets/galeria/novena-de-natal/03-mini.webp",
-      "original": "assets/originais/1000415409.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Novena de Natal — registro 03 da comunidade",
-      "category": "Novena de Natal",
-      "title": "Novena de Natal · Foto 03",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/novena-de-natal/04.webp",
@@ -628,18 +238,7 @@
       "alt": "Novena de Natal — registro 04 da comunidade",
       "category": "Novena de Natal",
       "title": "Novena de Natal · Foto 04",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/novena-de-natal/05.webp",
-      "thumbnail": "assets/galeria/novena-de-natal/05-mini.webp",
-      "original": "assets/originais/1000415411.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Novena de Natal — registro 05 da comunidade",
-      "category": "Novena de Natal",
-      "title": "Novena de Natal · Foto 05",
-      "thumbnailWidth": 338
+      "cover": true
     },
     {
       "src": "assets/galeria/novena-de-natal/06.webp",
@@ -650,18 +249,7 @@
       "alt": "Novena de Natal — registro 06 da comunidade",
       "category": "Novena de Natal",
       "title": "Novena de Natal · Foto 06",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/novena-de-natal/07.webp",
-      "thumbnail": "assets/galeria/novena-de-natal/07-mini.webp",
-      "original": "assets/originais/1000415287.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Novena de Natal — registro 07 da comunidade",
-      "category": "Novena de Natal",
-      "title": "Novena de Natal · Foto 07",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/novena-de-natal/08.webp",
@@ -672,84 +260,7 @@
       "alt": "Novena de Natal — registro 08 da comunidade",
       "category": "Novena de Natal",
       "title": "Novena de Natal · Foto 08",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/novena-de-natal/09.webp",
-      "thumbnail": "assets/galeria/novena-de-natal/09-mini.webp",
-      "original": "assets/originais/1000415408.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Novena de Natal — registro 09 da comunidade",
-      "category": "Novena de Natal",
-      "title": "Novena de Natal · Foto 09",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/encerramento-novena-de-natal/01.webp",
-      "thumbnail": "assets/galeria/encerramento-novena-de-natal/01-mini.webp",
-      "original": "assets/originais/1000423743.jpg",
-      "width": 865,
-      "height": 1536,
-      "alt": "Encerramento da Novena de Natal — registro 01 da comunidade",
-      "category": "Encerramento da Novena de Natal",
-      "title": "Encerramento da Novena de Natal · Foto 01",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/encerramento-novena-de-natal/02.webp",
-      "thumbnail": "assets/galeria/encerramento-novena-de-natal/02-mini.webp",
-      "original": "assets/originais/1000423744.jpg",
-      "width": 865,
-      "height": 1536,
-      "alt": "Encerramento da Novena de Natal — registro 02 da comunidade",
-      "category": "Encerramento da Novena de Natal",
-      "title": "Encerramento da Novena de Natal · Foto 02",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/encerramento-novena-de-natal/03.webp",
-      "thumbnail": "assets/galeria/encerramento-novena-de-natal/03-mini.webp",
-      "original": "assets/originais/1000423838.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Encerramento da Novena de Natal — registro 03 da comunidade",
-      "category": "Encerramento da Novena de Natal",
-      "title": "Encerramento da Novena de Natal · Foto 03",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/encerramento-novena-de-natal/04.webp",
-      "thumbnail": "assets/galeria/encerramento-novena-de-natal/04-mini.webp",
-      "original": "assets/originais/1000423840.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Encerramento da Novena de Natal — registro 04 da comunidade",
-      "category": "Encerramento da Novena de Natal",
-      "title": "Encerramento da Novena de Natal · Foto 04",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/encerramento-novena-de-natal/05.webp",
-      "thumbnail": "assets/galeria/encerramento-novena-de-natal/05-mini.webp",
-      "original": "assets/originais/1000423747.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Encerramento da Novena de Natal — registro 05 da comunidade",
-      "category": "Encerramento da Novena de Natal",
-      "title": "Encerramento da Novena de Natal · Foto 05",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/encerramento-novena-de-natal/06.webp",
-      "thumbnail": "assets/galeria/encerramento-novena-de-natal/06-mini.webp",
-      "original": "assets/originais/1000423748.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Encerramento da Novena de Natal — registro 06 da comunidade",
-      "category": "Encerramento da Novena de Natal",
-      "title": "Encerramento da Novena de Natal · Foto 06",
-      "thumbnailWidth": 338
+      "cover": false
     },
     {
       "src": "assets/galeria/encerramento-novena-de-natal/07.webp",
@@ -760,73 +271,7 @@
       "alt": "Encerramento da Novena de Natal — registro 07 da comunidade",
       "category": "Encerramento da Novena de Natal",
       "title": "Encerramento da Novena de Natal · Foto 07",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/encerramento-novena-de-natal/08.webp",
-      "thumbnail": "assets/galeria/encerramento-novena-de-natal/08-mini.webp",
-      "original": "assets/originais/1000423752.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Encerramento da Novena de Natal — registro 08 da comunidade",
-      "category": "Encerramento da Novena de Natal",
-      "title": "Encerramento da Novena de Natal · Foto 08",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/encerramento-novena-de-natal/09.webp",
-      "thumbnail": "assets/galeria/encerramento-novena-de-natal/09-mini.webp",
-      "original": "assets/originais/1000423746.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Encerramento da Novena de Natal — registro 09 da comunidade",
-      "category": "Encerramento da Novena de Natal",
-      "title": "Encerramento da Novena de Natal · Foto 09",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/encerramento-novena-de-natal/10.webp",
-      "thumbnail": "assets/galeria/encerramento-novena-de-natal/10-mini.webp",
-      "original": "assets/originais/1000423839.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Encerramento da Novena de Natal — registro 10 da comunidade",
-      "category": "Encerramento da Novena de Natal",
-      "title": "Encerramento da Novena de Natal · Foto 10",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/despedida-padre-gilberto/01.webp",
-      "thumbnail": "assets/galeria/despedida-padre-gilberto/01-mini.webp",
-      "original": "assets/originais/1000472860.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Missa de despedida do Padre Gilberto — registro 01 da comunidade",
-      "category": "Missa de despedida do Padre Gilberto",
-      "title": "Missa de despedida do Padre Gilberto · Foto 01",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/despedida-padre-gilberto/02.webp",
-      "thumbnail": "assets/galeria/despedida-padre-gilberto/02-mini.webp",
-      "original": "assets/originais/1000472897.heic",
-      "width": 1536,
-      "height": 865,
-      "alt": "Missa de despedida do Padre Gilberto — registro 02 da comunidade",
-      "category": "Missa de despedida do Padre Gilberto",
-      "title": "Missa de despedida do Padre Gilberto · Foto 02",
-      "thumbnailWidth": 600
-    },
-    {
-      "src": "assets/galeria/despedida-padre-gilberto/03.webp",
-      "thumbnail": "assets/galeria/despedida-padre-gilberto/03-mini.webp",
-      "original": "assets/originais/1000472898.heic",
-      "width": 1536,
-      "height": 865,
-      "alt": "Missa de despedida do Padre Gilberto — registro 03 da comunidade",
-      "category": "Missa de despedida do Padre Gilberto",
-      "title": "Missa de despedida do Padre Gilberto · Foto 03",
-      "thumbnailWidth": 600
+      "cover": true
     },
     {
       "src": "assets/galeria/despedida-padre-gilberto/04.webp",
@@ -837,18 +282,7 @@
       "alt": "Missa de despedida do Padre Gilberto — registro 04 da comunidade",
       "category": "Missa de despedida do Padre Gilberto",
       "title": "Missa de despedida do Padre Gilberto · Foto 04",
-      "thumbnailWidth": 600
-    },
-    {
-      "src": "assets/galeria/despedida-padre-gilberto/05.webp",
-      "thumbnail": "assets/galeria/despedida-padre-gilberto/05-mini.webp",
-      "original": "assets/originais/1000472894.heic",
-      "width": 1536,
-      "height": 865,
-      "alt": "Missa de despedida do Padre Gilberto — registro 05 da comunidade",
-      "category": "Missa de despedida do Padre Gilberto",
-      "title": "Missa de despedida do Padre Gilberto · Foto 05",
-      "thumbnailWidth": 600
+      "cover": true
     },
     {
       "src": "assets/galeria/despedida-padre-gilberto/06.webp",
@@ -859,29 +293,7 @@
       "alt": "Missa de despedida do Padre Gilberto — registro 06 da comunidade",
       "category": "Missa de despedida do Padre Gilberto",
       "title": "Missa de despedida do Padre Gilberto · Foto 06",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/despedida-padre-gilberto/07.webp",
-      "thumbnail": "assets/galeria/despedida-padre-gilberto/07-mini.webp",
-      "original": "assets/originais/1000472836.heic",
-      "width": 865,
-      "height": 1536,
-      "alt": "Missa de despedida do Padre Gilberto — registro 07 da comunidade",
-      "category": "Missa de despedida do Padre Gilberto",
-      "title": "Missa de despedida do Padre Gilberto · Foto 07",
-      "thumbnailWidth": 338
-    },
-    {
-      "src": "assets/galeria/despedida-padre-gilberto/08.webp",
-      "thumbnail": "assets/galeria/despedida-padre-gilberto/08-mini.webp",
-      "original": "assets/originais/1000472895.heic",
-      "width": 1536,
-      "height": 865,
-      "alt": "Missa de despedida do Padre Gilberto — registro 08 da comunidade",
-      "category": "Missa de despedida do Padre Gilberto",
-      "title": "Missa de despedida do Padre Gilberto · Foto 08",
-      "thumbnailWidth": 600
+      "cover": false
     },
     {
       "src": "assets/galeria/despedida-padre-gilberto/09.webp",
@@ -892,7 +304,7 @@
       "alt": "Missa de despedida do Padre Gilberto — registro 09 da comunidade",
       "category": "Missa de despedida do Padre Gilberto",
       "title": "Missa de despedida do Padre Gilberto · Foto 09",
-      "thumbnailWidth": 338
+      "cover": false
     }
   ],
   "galleryCategories": [
@@ -914,395 +326,18 @@
     },
     {
       "name": "Paróquia Nossa Senhora da Imaculada Conceição",
-      "src": "assets/paroquia.webp"
+      "src": "assets/paroquia-transparente.png"
     },
     {
       "name": "Comunidade São Francisco de Assis",
-      "src": "assets/comunidade.webp"
+      "src": "assets/comunidade-transparente.png"
     },
     {
       "name": "PASCOM",
-      "src": "assets/logos/pascom-sem-brasil.png"
+      "src": "assets/logos/pascom-transparente.png"
     }
   ],
   "monthlyMass": "Missa mensal — terceiro sábado do mês, às 19h.",
   "historyImages": [],
-  "mapUrl": "",
-  "imageAdjustments": {
-    "assets/igreja.webp": {
-      "brightness": 1.0,
-      "contrast": 1.12,
-      "saturation": 1.24
-    },
-    "assets/altar.webp": {
-      "brightness": 1.045,
-      "contrast": 1.1,
-      "saturation": 1.19
-    },
-    "assets/sao-francisco.webp": {
-      "brightness": 1.03,
-      "contrast": 1.055,
-      "saturation": 1.035
-    },
-    "assets/galeria/festa-sao-francisco-2025/01.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.215
-    },
-    "assets/galeria/festa-sao-francisco-2025/02.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.214
-    },
-    "assets/galeria/festa-sao-francisco-2025/03.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/04.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.143
-    },
-    "assets/galeria/festa-sao-francisco-2025/05.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/06.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.224
-    },
-    "assets/galeria/festa-sao-francisco-2025/07.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/08.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/09.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/10.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.232
-    },
-    "assets/galeria/festa-sao-francisco-2025/11.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.235
-    },
-    "assets/galeria/festa-sao-francisco-2025/12.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.236
-    },
-    "assets/galeria/festa-sao-francisco-2025/13.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.235
-    },
-    "assets/galeria/festa-sao-francisco-2025/14.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/15.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/16.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.236
-    },
-    "assets/galeria/festa-sao-francisco-2025/17.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.236
-    },
-    "assets/galeria/festa-sao-francisco-2025/18.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/19.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/20.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.235
-    },
-    "assets/galeria/festa-sao-francisco-2025/21.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/22.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/23.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/24.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/25.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/26.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/27.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.237
-    },
-    "assets/galeria/festa-sao-francisco-2025/28.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/29.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/30.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/31.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/32.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/33.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/34.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/35.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.207
-    },
-    "assets/galeria/festa-sao-francisco-2025/36.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.228
-    },
-    "assets/galeria/festa-sao-francisco-2025/37.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.238
-    },
-    "assets/galeria/festa-sao-francisco-2025/38.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.239
-    },
-    "assets/galeria/festa-sao-francisco-2025/39.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/festa-sao-francisco-2025/40.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.24
-    },
-    "assets/galeria/terco-dos-homens/01.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.227
-    },
-    "assets/galeria/terco-dos-homens/02.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.218
-    },
-    "assets/galeria/terco-dos-homens/03.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.218
-    },
-    "assets/galeria/terco-dos-homens/04.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.226
-    },
-    "assets/galeria/novena-de-natal/01.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.234
-    },
-    "assets/galeria/novena-de-natal/02.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.229
-    },
-    "assets/galeria/novena-de-natal/03.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.227
-    },
-    "assets/galeria/novena-de-natal/04.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.234
-    },
-    "assets/galeria/novena-de-natal/05.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.234
-    },
-    "assets/galeria/novena-de-natal/06.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.166
-    },
-    "assets/galeria/novena-de-natal/07.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.183
-    },
-    "assets/galeria/novena-de-natal/08.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.162
-    },
-    "assets/galeria/novena-de-natal/09.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.229
-    },
-    "assets/galeria/encerramento-novena-de-natal/01.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.205
-    },
-    "assets/galeria/encerramento-novena-de-natal/02.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.205
-    },
-    "assets/galeria/encerramento-novena-de-natal/03.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.226
-    },
-    "assets/galeria/encerramento-novena-de-natal/04.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.22
-    },
-    "assets/galeria/encerramento-novena-de-natal/05.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.222
-    },
-    "assets/galeria/encerramento-novena-de-natal/06.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.221
-    },
-    "assets/galeria/encerramento-novena-de-natal/07.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.224
-    },
-    "assets/galeria/encerramento-novena-de-natal/08.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.226
-    },
-    "assets/galeria/encerramento-novena-de-natal/09.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.223
-    },
-    "assets/galeria/encerramento-novena-de-natal/10.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.222
-    },
-    "assets/galeria/despedida-padre-gilberto/01.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.226
-    },
-    "assets/galeria/despedida-padre-gilberto/02.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.237
-    },
-    "assets/galeria/despedida-padre-gilberto/03.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.237
-    },
-    "assets/galeria/despedida-padre-gilberto/04.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.237
-    },
-    "assets/galeria/despedida-padre-gilberto/05.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.235
-    },
-    "assets/galeria/despedida-padre-gilberto/06.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.225
-    },
-    "assets/galeria/despedida-padre-gilberto/07.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.228
-    },
-    "assets/galeria/despedida-padre-gilberto/08.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.235
-    },
-    "assets/galeria/despedida-padre-gilberto/09.webp": {
-      "brightness": 1.0,
-      "contrast": 1.11,
-      "saturation": 1.227
-    }
-  }
+  "mapUrl": ""
 }
