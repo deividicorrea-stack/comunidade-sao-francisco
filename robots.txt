@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /editar.html
-Sitemap: https://saofranciscoitapoa.com.br/sitemap.xml
+Sitemap: https://comunidade-sao-francisco-barra-do-sai.omegaredy.chatgpt.site/sitemap.xml
