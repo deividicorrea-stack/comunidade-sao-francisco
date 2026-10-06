@@ -79,9 +79,10 @@
       "date": "2026-09-19",
       "endDate": "2026-09-19",
       "dateLabel": "19 de setembro de 2026",
-      "image": "",
+      "image": "assets/galeria/missoes/missao-01.webp",
       "description": "A alegria de anunciar o Evangelho e ir ao encontro das famílias.",
-      "body": "As missões reuniram nossa comunidade em uma caminhada de fé e encontro. Mesmo com a chuva, a alegria de servir marcou esse momento. Agradecemos ao nosso pároco, Padre Gélio, pela organização e a todos que participaram."
+      "body": "As missões reuniram nossa comunidade em uma caminhada de fé e encontro. Mesmo com a chuva, a alegria de servir marcou esse momento. Agradecemos ao nosso pároco, Padre Gélio, pela organização e a todos que participaram.",
+      "imageAlt": "Registro das Missões na Comunidade São Francisco de Assis"
     }
   ],
   "gallery": [
@@ -1186,6 +1187,265 @@
       "title": "Semana da Família · Foto 88",
       "alt": "Semana da Família, agosto de 2026 — registro da comunidade 88",
       "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-01.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 01",
+      "category": "Missões",
+      "title": "Missões · Foto 01",
+      "cover": true
+    },
+    {
+      "src": "assets/galeria/missoes/missao-02.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 02",
+      "category": "Missões",
+      "title": "Missões · Foto 02",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-03.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 03",
+      "category": "Missões",
+      "title": "Missões · Foto 03",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-04.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 04",
+      "category": "Missões",
+      "title": "Missões · Foto 04",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-05.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 05",
+      "category": "Missões",
+      "title": "Missões · Foto 05",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-06.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 06",
+      "category": "Missões",
+      "title": "Missões · Foto 06",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-07.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 07",
+      "category": "Missões",
+      "title": "Missões · Foto 07",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-08.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 08",
+      "category": "Missões",
+      "title": "Missões · Foto 08",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-09.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 09",
+      "category": "Missões",
+      "title": "Missões · Foto 09",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-10.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 10",
+      "category": "Missões",
+      "title": "Missões · Foto 10",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-11.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 11",
+      "category": "Missões",
+      "title": "Missões · Foto 11",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-12.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 12",
+      "category": "Missões",
+      "title": "Missões · Foto 12",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-13.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 13",
+      "category": "Missões",
+      "title": "Missões · Foto 13",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-14.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 14",
+      "category": "Missões",
+      "title": "Missões · Foto 14",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-15.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 15",
+      "category": "Missões",
+      "title": "Missões · Foto 15",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-16.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 16",
+      "category": "Missões",
+      "title": "Missões · Foto 16",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-17.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 17",
+      "category": "Missões",
+      "title": "Missões · Foto 17",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-18.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 18",
+      "category": "Missões",
+      "title": "Missões · Foto 18",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-19.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 19",
+      "category": "Missões",
+      "title": "Missões · Foto 19",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-20.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 20",
+      "category": "Missões",
+      "title": "Missões · Foto 20",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-21.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 21",
+      "category": "Missões",
+      "title": "Missões · Foto 21",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-22.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 22",
+      "category": "Missões",
+      "title": "Missões · Foto 22",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-23.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 23",
+      "category": "Missões",
+      "title": "Missões · Foto 23",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-24.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 24",
+      "category": "Missões",
+      "title": "Missões · Foto 24",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-25.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 25",
+      "category": "Missões",
+      "title": "Missões · Foto 25",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-26.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 26",
+      "category": "Missões",
+      "title": "Missões · Foto 26",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-27.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 27",
+      "category": "Missões",
+      "title": "Missões · Foto 27",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-28.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 28",
+      "category": "Missões",
+      "title": "Missões · Foto 28",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-29.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 29",
+      "category": "Missões",
+      "title": "Missões · Foto 29",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-30.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 30",
+      "category": "Missões",
+      "title": "Missões · Foto 30",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-31.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 31",
+      "category": "Missões",
+      "title": "Missões · Foto 31",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-32.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 32",
+      "category": "Missões",
+      "title": "Missões · Foto 32",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-33.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 33",
+      "category": "Missões",
+      "title": "Missões · Foto 33",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-34.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 34",
+      "category": "Missões",
+      "title": "Missões · Foto 34",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-35.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 35",
+      "category": "Missões",
+      "title": "Missões · Foto 35",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-36.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 36",
+      "category": "Missões",
+      "title": "Missões · Foto 36",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/missoes/missao-37.webp",
+      "alt": "Missões na Comunidade São Francisco de Assis — registro 37",
+      "category": "Missões",
+      "title": "Missões · Foto 37",
+      "cover": false
     }
   ],
   "galleryCategories": [
@@ -1195,7 +1455,8 @@
     "Novena de Natal",
     "Encerramento da Novena de Natal",
     "Missa de despedida do Padre Gilberto",
-    "Semana da Família"
+    "Semana da Família",
+    "Missões"
   ],
   "logos": [
     {
