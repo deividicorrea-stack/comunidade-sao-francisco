@@ -1446,6 +1446,406 @@
       "category": "Missões",
       "title": "Missões · Foto 37",
       "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/01.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/01.webp",
+      "width": 2000,
+      "height": 1004,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 01",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 01",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/02.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/02.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 02",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 02",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/03.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/03.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 03",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 03",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/04.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/04.webp",
+      "width": 1333,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 04",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 04",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/05.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/05.webp",
+      "width": 1333,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 05",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 05",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/06.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/06.webp",
+      "width": 1517,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 06",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 06",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/07.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/07.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 07",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 07",
+      "cover": true
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/08.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/08.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 08",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 08",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/09.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/09.webp",
+      "width": 1333,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 09",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 09",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/10.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/10.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 10",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 10",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/11.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/11.webp",
+      "width": 1333,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 11",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 11",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/12.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/12.webp",
+      "width": 1333,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Domingo · Foto 12",
+      "alt": "Festa São Francisco 2026 — Missa de Domingo, registro 12",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/13.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/13.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Sábado · Foto 13",
+      "alt": "Festa São Francisco 2026 — Missa de Sábado, registro 13",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/14.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/14.webp",
+      "width": 1333,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Sábado · Foto 14",
+      "alt": "Festa São Francisco 2026 — Missa de Sábado, registro 14",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/15.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/15.webp",
+      "width": 1333,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Sábado · Foto 15",
+      "alt": "Festa São Francisco 2026 — Missa de Sábado, registro 15",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/16.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/16.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Sábado · Foto 16",
+      "alt": "Festa São Francisco 2026 — Missa de Sábado, registro 16",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/17.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/17.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Sábado · Foto 17",
+      "alt": "Festa São Francisco 2026 — Missa de Sábado, registro 17",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/18.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/18.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Sábado · Foto 18",
+      "alt": "Festa São Francisco 2026 — Missa de Sábado, registro 18",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/19.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/19.webp",
+      "width": 1648,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Sábado · Foto 19",
+      "alt": "Festa São Francisco 2026 — Missa de Sábado, registro 19",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/20.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/20.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Sábado · Foto 20",
+      "alt": "Festa São Francisco 2026 — Missa de Sábado, registro 20",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/21.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/21.webp",
+      "width": 2000,
+      "height": 1333,
+      "category": "Festa São Francisco 2026",
+      "title": "Missa de Sábado · Foto 21",
+      "alt": "Festa São Francisco 2026 — Missa de Sábado, registro 21",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/22-abraco.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/22-abraco.webp",
+      "width": 1882,
+      "height": 2000,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 22",
+      "alt": "Abraço entre participantes durante a celebração da Festa São Francisco 2026",
+      "cover": false
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/23.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/23.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 23",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/24.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/24.webp",
+      "width": 1694,
+      "height": 1800,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 24",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/25.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/25.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 25",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/26.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/26.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 26",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/27.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/27.webp",
+      "width": 1200,
+      "height": 1800,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 27",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/28.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/28.webp",
+      "width": 1200,
+      "height": 1800,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 28",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/29.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/29.webp",
+      "width": 1200,
+      "height": 1800,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 29",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/30.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/30.webp",
+      "width": 1200,
+      "height": 1800,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 30",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/31.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/31.webp",
+      "width": 1200,
+      "height": 1800,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 31",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/32.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/32.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 32",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/33.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/33.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 33",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/34.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/34.webp",
+      "width": 1200,
+      "height": 1800,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 34",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/35.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/35.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 35",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/36.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/36.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 36",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/37.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/37.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 37",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/38.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/38.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 38",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/39.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/39.webp",
+      "width": 1596,
+      "height": 1800,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 39",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/40.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/40.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 40",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/41.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/41.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 41",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
+    },
+    {
+      "src": "assets/galeria/festa-sao-francisco-2026/42.webp",
+      "thumbnail": "assets/galeria/festa-sao-francisco-2026/42.webp",
+      "width": 1800,
+      "height": 1200,
+      "category": "Festa São Francisco 2026",
+      "title": "Festa São Francisco 2026 · Foto 42",
+      "alt": "Participantes e momentos das celebrações da Festa São Francisco 2026"
     }
   ],
   "galleryCategories": [
@@ -1456,7 +1856,8 @@
     "Encerramento da Novena de Natal",
     "Missa de despedida do Padre Gilberto",
     "Semana da Família",
-    "Missões"
+    "Missões",
+    "Festa São Francisco 2026"
   ],
   "logos": [
     {
