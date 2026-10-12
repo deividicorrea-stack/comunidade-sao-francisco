@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Nossa Senhora Aparecida",
+    "when": "12 de outubro · Missa às 10h30",
+    "place": "Comunidade Nossa Senhora Aparecida · Sai Mirim",
+    "body": "Carreata saindo da Comunidade Navegantes em direção à Comunidade Aparecida. Após a Missa, almoço e show de prêmios. O tríduo ocorreu nos dias 9, 10 e 11 de outubro.",
+    "expires": "2026-10-12"
+  },
+  {
+    "title": "Santa Missa na Matriz",
+    "when": "12 de outubro · 19h",
+    "place": "Matriz Nossa Senhora Imaculada Conceição",
+    "body": "Reúna sua família e participe deste momento de fé e oração.",
+    "expires": "2026-10-12"
+  },
+  {
+    "title": "Tríduo e Missa festiva",
+    "when": "Tríduo: 14, 15 e 16/10 · Missa: 18/10, às 10h30",
+    "place": "Comunidade Bom Jesus",
+    "body": "Tríduo festivo com noites do pastel. No dia 18, Missa festiva em honra a Nossa Senhora Aparecida, seguida de almoço e show de prêmios.",
+    "expires": "2026-10-18"
+  },
+  {
+    "title": "Formação Bíblica Paroquial",
+    "when": "Dia 19 de outubro · 19h · Data a confirmar",
+    "place": "Matriz Nossa Senhora Imaculada Conceição",
+    "body": "O aviso informa “dia 19 (terça-feira)”. Há divergência entre a data e o dia da semana; confirme a data com a secretaria paroquial.",
+    "expires": "2026-10-19"
+  },
+  {
+    "title": "Retiro para homens · Cursilho",
+    "when": "30 de outubro a 1º de novembro",
+    "place": "Movimento de Cursilho · Paróquia",
+    "body": "Um encontro consigo mesmo, com Cristo e com o próximo. Para homens casados a partir de 18 anos e solteiros a partir de 30 anos. Informações na secretaria ou com a Ilma.",
+    "expires": "2026-11-01"
+  },
+  {
+    "title": "Terço dos Homens na Matriz",
+    "when": "Segundas-feiras · 6h15",
+    "place": "Matriz Nossa Senhora Imaculada Conceição",
+    "body": "Comece a semana em oração. Participe do Terço dos Homens na Matriz.",
+    "expires": null
+  },
+  {
+    "title": "Terço das Mulheres na Matriz",
+    "when": "Quartas-feiras · 18h",
+    "place": "Matriz Nossa Senhora Imaculada Conceição",
+    "body": "Um convite para rezar em comunhão e confiar nossas famílias à intercessão de Maria.",
+    "expires": null
+  },
+  {
+    "title": "Grupo de oração · RCC",
+    "when": "Segundas-feiras · A partir das 19h30",
+    "place": "Matriz Nossa Senhora Imaculada Conceição",
+    "body": "A Renovação Carismática Católica convida você para o grupo de oração na Matriz.",
+    "expires": null
+  }
+]
