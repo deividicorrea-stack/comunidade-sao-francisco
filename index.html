@@ -35,6 +35,55 @@
 <section class="section location" id="localizacao"><div class="container"><div class="location-grid" id="contato"><div class="contact-details"><div class="section-heading"><h2>Localização e contato</h2><p>Venha nos visitar. Será uma alegria recebê-lo!</p></div><div class="detail"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7m0 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6"/></svg><div><h3>Nosso endereço</h3><p id="address-text">Rua Benjamin Constant, S/N<br/>Barra do Saí – Itapoá/SC</p></div></div><div class="detail"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="m6 2 4 5-3 3c1.4 3.2 3.8 5.6 7 7l3-3 5 4c-1 3-3 4-5 3C9 19 5 15 3 7 2 5 3 3 6 2Z"/></svg><div><h3>Fale com a comunidade</h3><a id="phone-link"></a><p>Telefone e WhatsApp</p></div></div><div class="detail"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 5h20v14H2Z"/><path d="m2 5 10 8L22 5" fill="none" stroke="#fcf6e9" stroke-width="1.5"/></svg><div><h3>E-mail</h3><a id="email-link"></a></div></div><div class="socials" id="socials"></div><div class="actions"><a class="button brown" id="maps-link" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7m0 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6"/></svg>Como chegar</a></div></div><div class="location-visual"><img alt="Foto aérea real da igreja São Francisco de Assis em Barra do Saí" class="location-photo" height="1152" loading="lazy" src="assets/igreja.webp" width="1536"/></div></div></div></section>
 </main>
 <footer><div class="container"><div class="logos" id="logos"></div><div class="footer-bottom"><div>© 2026 Comunidade São Francisco de Assis – Barra do Saí, Itapoá/SC | Todos os direitos reservados.</div><span class="peace">Paz e Bem!</span></div></div></footer>
+<style>
+.visitor-counter{background:#f3ece2;color:#62452f;text-align:center;padding:22px 18px 19px;border-top:1px solid #d9c7ad;font-family:inherit}
+.visitor-counter-values{display:flex;align-items:center;justify-content:center;gap:34px;flex-wrap:wrap;font-size:14px}
+.visitor-counter-values>span{display:inline-flex;align-items:center;gap:7px}
+.visitor-counter strong{font-size:20px;font-variant-numeric:tabular-nums;color:#432918}
+.visitor-online-dot{width:8px;height:8px;border-radius:50%;background:#53734b;display:inline-block}
+.visitor-counter small{display:block;margin-top:9px;font-size:11px;color:#765e49}
+@media(max-width:600px){.visitor-counter-values{gap:12px 24px}}
+</style>
+<section class="visitor-counter" aria-label="Visitas ao site"><div class="visitor-counter-values"><span>Visitas: <strong id="visit-total">—</strong></span><span><i class="visitor-online-dot" aria-hidden="true"></i>Pessoas online: <strong id="visit-online">—</strong></span></div><small id="visit-status">Online: visitantes ativos nos últimos 2 minutos.</small></section>
+<script>(() => {
+  const total = document.querySelector('#visit-total');
+  const online = document.querySelector('#visit-online');
+  const status = document.querySelector('#visit-status');
+  if (!total || !online) return;
+  let id;
+  try {
+    id = localStorage.getItem('sf-visitor-id');
+    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(id || '')) {
+      id = crypto.randomUUID();
+      localStorage.setItem('sf-visitor-id', id);
+    }
+  } catch { id = crypto.randomUUID(); }
+  let pending = false;
+  async function refresh() {
+    if (pending || document.visibilityState !== 'visible') return;
+    pending = true;
+    try {
+      const response = await fetch('https://comunidade-sao-francisco-barra-do-sai.omegaredy.chatgpt.site/api/visitors', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id }), cache: 'no-store', signal: AbortSignal.timeout(10000)
+      });
+      if (!response.ok) throw new Error();
+      const data = await response.json();
+      if (!Number.isFinite(data.visits) || !Number.isFinite(data.online)) throw new Error();
+      total.textContent = data.visits.toLocaleString('pt-BR');
+      online.textContent = data.online.toLocaleString('pt-BR');
+      status.textContent = 'Online: visitantes ativos nos últimos 2 minutos.';
+    } catch {
+      total.textContent = '—'; online.textContent = '—';
+      status.textContent = 'Contadores temporariamente indisponíveis.';
+    } finally { pending = false; }
+  }
+  refresh();
+  setInterval(refresh, 30000);
+  document.addEventListener('visibilitychange', refresh);
+})();
+</script>
+
 
 <dialog id="detail-dialog"><button aria-label="Fechar" class="close">×</button><div id="detail-content"></div></dialog>
 <dialog aria-label="Visualização ampliada das fotografias" id="lightbox"><button aria-label="Fechar fotografia" class="close">×</button><figure><img alt="" id="lightbox-img"/><figcaption id="lightbox-caption"></figcaption></figure><div class="lightbox-controls"><button aria-label="Fotografia anterior" id="photo-prev">‹</button><span aria-live="polite" id="photo-count"></span><button aria-label="Próxima fotografia" id="photo-next">›</button></div><a class="photo-original" download="" id="photo-original">Baixar foto original</a></dialog>
